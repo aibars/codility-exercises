@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryGap", "BinaryGap\BinaryGap.csproj", "{58A91063-22EE-4C04-AE56-00FE0369E7D8}"
 EndProject
@@ -13,6 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TotalNumberOfTickets", "Tot
 	ProjectSection(SolutionItems) = preProject
 		TotalNumberOfTickets\solution.sql = TotalNumberOfTickets\solution.sql
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recipes", "Recipes", "{D71B32EB-4839-4CE4-A57E-06E19B98612B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Desktop\codility_sql.png = ..\..\Desktop\codility_sql.png
+		solution.sql = solution.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveMultiply", "RecursiveMultiply\RecursiveMultiply.csproj", "{C90C9175-E953-4746-8E31-EDFEDDCADFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HammeredNails", "HammeredNails\HammeredNails.csproj", "{5EB71570-A22C-4F4B-8B42-A40C9F010F89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +42,14 @@ Global
 		{D474F9DB-FFD8-482A-B7F6-633DECBE012A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D474F9DB-FFD8-482A-B7F6-633DECBE012A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D474F9DB-FFD8-482A-B7F6-633DECBE012A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90C9175-E953-4746-8E31-EDFEDDCADFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90C9175-E953-4746-8E31-EDFEDDCADFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90C9175-E953-4746-8E31-EDFEDDCADFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90C9175-E953-4746-8E31-EDFEDDCADFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB71570-A22C-4F4B-8B42-A40C9F010F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB71570-A22C-4F4B-8B42-A40C9F010F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB71570-A22C-4F4B-8B42-A40C9F010F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB71570-A22C-4F4B-8B42-A40C9F010F89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
